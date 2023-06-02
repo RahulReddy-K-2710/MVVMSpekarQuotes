@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45469B22935D58000F70717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469B12935D58000F70717 /* AppDelegate.swift */; };
+		F45469B42935D58000F70717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469B32935D58000F70717 /* SceneDelegate.swift */; };
+		F45469B62935D58000F70717 /* SpeakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469B52935D58000F70717 /* SpeakerViewController.swift */; };
+		F45469B92935D58000F70717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45469B72935D58000F70717 /* Main.storyboard */; };
+		F45469BB2935D58200F70717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45469BA2935D58200F70717 /* Assets.xcassets */; };
+		F45469BE2935D58200F70717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45469BC2935D58200F70717 /* LaunchScreen.storyboard */; };
+		F45469C62935D77500F70717 /* SpeakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469C52935D77400F70717 /* SpeakerTableViewCell.swift */; };
+		F45469C82935DBB000F70717 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469C72935DBB000F70717 /* QuotesViewController.swift */; };
+		F45469CA2935DE8400F70717 /* SpeakerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469C92935DE8400F70717 /* SpeakerModel.swift */; };
+		F45469CE2935DED900F70717 /* SpeakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45469CD2935DED900F70717 /* SpeakerViewModel.swift */; };
+		F490E3792939960C00D07792 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490E3782939960C00D07792 /* QuotesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F45469AE2935D58000F70717 /* SpekarQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpekarQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45469B12935D58000F70717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F45469B32935D58000F70717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F45469B52935D58000F70717 /* SpeakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerViewController.swift; sourceTree = "<group>"; };
+		F45469B82935D58000F70717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45469BA2935D58200F70717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45469BD2935D58200F70717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45469BF2935D58200F70717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45469C52935D77400F70717 /* SpeakerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewCell.swift; sourceTree = "<group>"; };
+		F45469C72935DBB000F70717 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		F45469C92935DE8400F70717 /* SpeakerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerModel.swift; sourceTree = "<group>"; };
+		F45469CD2935DED900F70717 /* SpeakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerViewModel.swift; sourceTree = "<group>"; };
+		F490E3782939960C00D07792 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45469AB2935D58000F70717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45469A52935D58000F70717 = {
+			isa = PBXGroup;
+			children = (
+				F45469B02935D58000F70717 /* SpekarQuotes */,
+				F45469AF2935D58000F70717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45469AF2935D58000F70717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45469AE2935D58000F70717 /* SpekarQuotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45469B02935D58000F70717 /* SpekarQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				F45469B12935D58000F70717 /* AppDelegate.swift */,
+				F45469B32935D58000F70717 /* SceneDelegate.swift */,
+				F45469B52935D58000F70717 /* SpeakerViewController.swift */,
+				F45469C72935DBB000F70717 /* QuotesViewController.swift */,
+				F45469C52935D77400F70717 /* SpeakerTableViewCell.swift */,
+				F45469C92935DE8400F70717 /* SpeakerModel.swift */,
+				F45469CD2935DED900F70717 /* SpeakerViewModel.swift */,
+				F490E3782939960C00D07792 /* QuotesViewModel.swift */,
+				F45469B72935D58000F70717 /* Main.storyboard */,
+				F45469BA2935D58200F70717 /* Assets.xcassets */,
+				F45469BC2935D58200F70717 /* LaunchScreen.storyboard */,
+				F45469BF2935D58200F70717 /* Info.plist */,
+			);
+			path = SpekarQuotes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45469AD2935D58000F70717 /* SpekarQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45469C22935D58200F70717 /* Build configuration list for PBXNativeTarget "SpekarQuotes" */;
+			buildPhases = (
+				F45469AA2935D58000F70717 /* Sources */,
+				F45469AB2935D58000F70717 /* Frameworks */,
+				F45469AC2935D58000F70717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpekarQuotes;
+			productName = SpekarQuotes;
+			productReference = F45469AE2935D58000F70717 /* SpekarQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45469A62935D58000F70717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F45469AD2935D58000F70717 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F45469A92935D58000F70717 /* Build configuration list for PBXProject "SpekarQuotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45469A52935D58000F70717;
+			productRefGroup = F45469AF2935D58000F70717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45469AD2935D58000F70717 /* SpekarQuotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45469AC2935D58000F70717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45469BE2935D58200F70717 /* LaunchScreen.storyboard in Resources */,
+				F45469BB2935D58200F70717 /* Assets.xcassets in Resources */,
+				F45469B92935D58000F70717 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45469AA2935D58000F70717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45469B62935D58000F70717 /* SpeakerViewController.swift in Sources */,
+				F45469B22935D58000F70717 /* AppDelegate.swift in Sources */,
+				F45469CE2935DED900F70717 /* SpeakerViewModel.swift in Sources */,
+				F45469C82935DBB000F70717 /* QuotesViewController.swift in Sources */,
+				F45469CA2935DE8400F70717 /* SpeakerModel.swift in Sources */,
+				F490E3792939960C00D07792 /* QuotesViewModel.swift in Sources */,
+				F45469B42935D58000F70717 /* SceneDelegate.swift in Sources */,
+				F45469C62935D77500F70717 /* SpeakerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F45469B72935D58000F70717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45469B82935D58000F70717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45469BC2935D58200F70717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45469BD2935D58200F70717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45469C02935D58200F70717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45469C12935D58200F70717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45469C32935D58200F70717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpekarQuotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speaker Quotes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.test.SpekarQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45469C42935D58200F70717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpekarQuotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speaker Quotes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.test.SpekarQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45469A92935D58000F70717 /* Build configuration list for PBXProject "SpekarQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45469C02935D58200F70717 /* Debug */,
+				F45469C12935D58200F70717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45469C22935D58200F70717 /* Build configuration list for PBXNativeTarget "SpekarQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45469C32935D58200F70717 /* Debug */,
+				F45469C42935D58200F70717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45469A62935D58000F70717 /* Project object */;
+}
